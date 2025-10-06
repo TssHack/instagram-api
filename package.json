@@ -1,0 +1,23 @@
+{
+  "name": "instagram-api-proxy",
+  "version": "1.0.0",
+  "description": "Instagram video downloader proxy using Express, Axios, and AES-128-ECB encryption.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Ehsan Fazli (@abj0o)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
